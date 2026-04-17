@@ -1,1 +1,1 @@
-# STT Evaluation\n\n115 samples, 100% accuracy after post-processing rules
+# STT Evaluation Results
