@@ -1,0 +1,922 @@
+[
+  {
+    "id": 0,
+    "text": "给我妈妈打个电话。",
+    "domain": "commands",
+    "noise_type": "cafe",
+    "noise_level": "loud",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_000.wav"
+  },
+  {
+    "id": 1,
+    "text": "调高电视机的音量。",
+    "domain": "commands",
+    "noise_type": "traffic",
+    "noise_level": "medium",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_001.wav"
+  },
+  {
+    "id": 2,
+    "text": "今天上午国务院召开新闻发布会。",
+    "domain": "news",
+    "noise_type": "traffic",
+    "noise_level": "medium",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_002.wav"
+  },
+  {
+    "id": 3,
+    "text": "播放下一首歌曲。",
+    "domain": "commands",
+    "noise_type": "babble",
+    "noise_level": "medium",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_003.wav"
+  },
+  {
+    "id": 4,
+    "text": "安装 Node.js 和 npm 包管理器。",
+    "domain": "english",
+    "noise_type": "babble",
+    "noise_level": "soft",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_004.wav"
+  },
+  {
+    "id": 5,
+    "text": "用 Python 读取 JSON 文件。",
+    "domain": "english",
+    "noise_type": "cafe",
+    "noise_level": "medium",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_005.wav"
+  },
+  {
+    "id": 6,
+    "text": "我的电话号码是一三八幺二三四五六七八。",
+    "domain": "numbers",
+    "noise_type": null,
+    "noise_level": "clean",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_006.wav"
+  },
+  {
+    "id": 7,
+    "text": "苹果公司的市值全球第一。",
+    "domain": "names",
+    "noise_type": "traffic",
+    "noise_level": "soft",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_007.wav"
+  },
+  {
+    "id": 8,
+    "text": "杭州西湖的风景真美。",
+    "domain": "names",
+    "noise_type": null,
+    "noise_level": "clean",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_008.wav"
+  },
+  {
+    "id": 9,
+    "text": "测试覆盖率需要提升到百分之八十以上。",
+    "domain": "tech",
+    "noise_type": null,
+    "noise_level": "clean",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_009.wav"
+  },
+  {
+    "id": 10,
+    "text": "这个电影非常精彩，推荐大家去看。",
+    "domain": "daily",
+    "noise_type": "cafe",
+    "noise_level": "soft",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_010.wav"
+  },
+  {
+    "id": 11,
+    "text": "股票涨了百分之十五。",
+    "domain": "numbers",
+    "noise_type": null,
+    "noise_level": "clean",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_011.wav"
+  },
+  {
+    "id": 12,
+    "text": "把文件上传到 Google Drive。",
+    "domain": "english",
+    "noise_type": "cafe",
+    "noise_level": "soft",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_012.wav"
+  },
+  {
+    "id": 13,
+    "text": "访问 192.168.1.1 这个 IP 地址。",
+    "domain": "english",
+    "noise_type": "cafe",
+    "noise_level": "medium",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_013.wav"
+  },
+  {
+    "id": 14,
+    "text": "总价是九千九百九十九块九毛九。",
+    "domain": "numbers",
+    "noise_type": "traffic",
+    "noise_level": "soft",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_014.wav"
+  },
+  {
+    "id": 15,
+    "text": "我想喝一杯咖啡，要不要一起？",
+    "domain": "daily",
+    "noise_type": null,
+    "noise_level": "clean",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_015.wav"
+  },
+  {
+    "id": 16,
+    "text": "我在用 Python 写 REST API 接口。",
+    "domain": "tech",
+    "noise_type": "traffic",
+    "noise_level": "soft",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_016.wav"
+  },
+  {
+    "id": 17,
+    "text": "快递单号以九四三二开头。",
+    "domain": "numbers",
+    "noise_type": null,
+    "noise_level": "clean",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_017.wav"
+  },
+  {
+    "id": 18,
+    "text": "晚上吃什么好呢，火锅还是烧烤？",
+    "domain": "daily",
+    "noise_type": null,
+    "noise_level": "clean",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_018.wav"
+  },
+  {
+    "id": 19,
+    "text": "收到转账一万两千元整。",
+    "domain": "numbers",
+    "noise_type": "cafe",
+    "noise_level": "medium",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_019.wav"
+  },
+  {
+    "id": 20,
+    "text": "体重是六十八点五公斤。",
+    "domain": "numbers",
+    "noise_type": "babble",
+    "noise_level": "loud",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_020.wav"
+  },
+  {
+    "id": 21,
+    "text": "把空调温度调到二十六度。",
+    "domain": "commands",
+    "noise_type": "white",
+    "noise_level": "medium",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_021.wav"
+  },
+  {
+    "id": 22,
+    "text": "上海浦东机场今天航班延误了。",
+    "domain": "names",
+    "noise_type": null,
+    "noise_level": "clean",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_022.wav"
+  },
+  {
+    "id": 23,
+    "text": "关掉客厅的灯。",
+    "domain": "commands",
+    "noise_type": null,
+    "noise_level": "clean",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_023.wav"
+  },
+  {
+    "id": 24,
+    "text": "用 Docker 跑一个 MySQL 容器。",
+    "domain": "english",
+    "noise_type": "babble",
+    "noise_level": "loud",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_024.wav"
+  },
+  {
+    "id": 25,
+    "text": "特朗普和拜登进行了辩论。",
+    "domain": "names",
+    "noise_type": "white",
+    "noise_level": "medium",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_025.wav"
+  },
+  {
+    "id": 26,
+    "text": "记得带伞，今天下午有雨。",
+    "domain": "daily",
+    "noise_type": "white",
+    "noise_level": "medium",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_026.wav"
+  },
+  {
+    "id": 27,
+    "text": "用 Redis 做缓存层效果好很多。",
+    "domain": "tech",
+    "noise_type": "babble",
+    "noise_level": "loud",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_027.wav"
+  },
+  {
+    "id": 28,
+    "text": "需要修复 Git 的 merge conflict。",
+    "domain": "tech",
+    "noise_type": null,
+    "noise_level": "clean",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_028.wav"
+  },
+  {
+    "id": 29,
+    "text": "API 文档用 Swagger 自动生成。",
+    "domain": "tech",
+    "noise_type": "traffic",
+    "noise_level": "medium",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_029.wav"
+  },
+  {
+    "id": 30,
+    "text": "帮我叫一辆出租车。",
+    "domain": "commands",
+    "noise_type": "traffic",
+    "noise_level": "loud",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_030.wav"
+  },
+  {
+    "id": 31,
+    "text": "李明和王小红去看了张艺谋的新电影。",
+    "domain": "names",
+    "noise_type": "traffic",
+    "noise_level": "soft",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_031.wav"
+  },
+  {
+    "id": 32,
+    "text": "你好，请问这个怎么走？",
+    "domain": "daily",
+    "noise_type": "traffic",
+    "noise_level": "loud",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_032.wav"
+  },
+  {
+    "id": 33,
+    "text": "导航去最近的加油站。",
+    "domain": "commands",
+    "noise_type": null,
+    "noise_level": "clean",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_033.wav"
+  },
+  {
+    "id": 34,
+    "text": "医疗卫生体制改革持续深化。",
+    "domain": "news",
+    "noise_type": "babble",
+    "noise_level": "loud",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_034.wav"
+  },
+  {
+    "id": 35,
+    "text": "登录 iCloud 账号同步数据。",
+    "domain": "english",
+    "noise_type": "traffic",
+    "noise_level": "loud",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_035.wav"
+  },
+  {
+    "id": 36,
+    "text": "刘德华和周杰伦开演唱会。",
+    "domain": "names",
+    "noise_type": "babble",
+    "noise_level": "medium",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_036.wav"
+  },
+  {
+    "id": 37,
+    "text": "这个 bug 很难复现，需要加日志。",
+    "domain": "tech",
+    "noise_type": "traffic",
+    "noise_level": "loud",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_037.wav"
+  },
+  {
+    "id": 38,
+    "text": "帮我打开音乐播放器。",
+    "domain": "commands",
+    "noise_type": "cafe",
+    "noise_level": "medium",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_038.wav"
+  },
+  {
+    "id": 39,
+    "text": "文化产业发展势头强劲。",
+    "domain": "news",
+    "noise_type": "white",
+    "noise_level": "soft",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_039.wav"
+  },
+  {
+    "id": 40,
+    "text": "去成都要吃火锅和兔头。",
+    "domain": "names",
+    "noise_type": "cafe",
+    "noise_level": "loud",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_040.wav"
+  },
+  {
+    "id": 41,
+    "text": "周末有什么计划吗？",
+    "domain": "daily",
+    "noise_type": "babble",
+    "noise_level": "medium",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_041.wav"
+  },
+  {
+    "id": 42,
+    "text": "下载 VS Code 编辑器。",
+    "domain": "english",
+    "noise_type": "babble",
+    "noise_level": "soft",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_042.wav"
+  },
+  {
+    "id": 43,
+    "text": "路上堵车可能要晚一点到。",
+    "domain": "daily",
+    "noise_type": null,
+    "noise_level": "clean",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_043.wav"
+  },
+  {
+    "id": 44,
+    "text": "MySQL 数据库性能有点慢。",
+    "domain": "tech",
+    "noise_type": "traffic",
+    "noise_level": "soft",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_044.wav"
+  },
+  {
+    "id": 45,
+    "text": "社会保障体系不断完善。",
+    "domain": "news",
+    "noise_type": "cafe",
+    "noise_level": "soft",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_045.wav"
+  },
+  {
+    "id": 46,
+    "text": "房地产市场调控政策效果显现。",
+    "domain": "news",
+    "noise_type": "babble",
+    "noise_level": "soft",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_046.wav"
+  },
+  {
+    "id": 47,
+    "text": "阿里巴巴和腾讯都是大公司。",
+    "domain": "names",
+    "noise_type": "white",
+    "noise_level": "soft",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_047.wav"
+  },
+  {
+    "id": 48,
+    "text": "体温是三十六点六度，正常。",
+    "domain": "numbers",
+    "noise_type": null,
+    "noise_level": "clean",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_048.wav"
+  },
+  {
+    "id": 49,
+    "text": "环境保护工作取得积极成效。",
+    "domain": "news",
+    "noise_type": "white",
+    "noise_level": "medium",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_049.wav"
+  },
+  {
+    "id": 50,
+    "text": "这本书很有意思，我已经看了三遍了。",
+    "domain": "daily",
+    "noise_type": "white",
+    "noise_level": "loud",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_050.wav"
+  },
+  {
+    "id": 51,
+    "text": "打开 Safari 浏览网页。",
+    "domain": "english",
+    "noise_type": null,
+    "noise_level": "clean",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_051.wav"
+  },
+  {
+    "id": 52,
+    "text": "连接 WiFi 无线网络。",
+    "domain": "english",
+    "noise_type": "babble",
+    "noise_level": "soft",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_052.wav"
+  },
+  {
+    "id": 53,
+    "text": "教育公平进一步得到保障。",
+    "domain": "news",
+    "noise_type": "traffic",
+    "noise_level": "soft",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_053.wav"
+  },
+  {
+    "id": 54,
+    "text": "播放暂停停止音乐。",
+    "domain": "commands",
+    "noise_type": "traffic",
+    "noise_level": "soft",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_054.wav"
+  },
+  {
+    "id": 55,
+    "text": "科技创新取得重大突破性进展。",
+    "domain": "news",
+    "noise_type": "babble",
+    "noise_level": "medium",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_055.wav"
+  },
+  {
+    "id": 56,
+    "text": "把这个链接分享给张三。",
+    "domain": "commands",
+    "noise_type": "traffic",
+    "noise_level": "loud",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_056.wav"
+  },
+  {
+    "id": 57,
+    "text": "用 GitHub Actions 做 CI/CD 流程。",
+    "domain": "tech",
+    "noise_type": null,
+    "noise_level": "clean",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_057.wav"
+  },
+  {
+    "id": 58,
+    "text": "设置一个明天早上七点的闹钟。",
+    "domain": "commands",
+    "noise_type": "cafe",
+    "noise_level": "loud",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_058.wav"
+  },
+  {
+    "id": 59,
+    "text": "时间是下午三点四十五分。",
+    "domain": "numbers",
+    "noise_type": null,
+    "noise_level": "clean",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_059.wav"
+  },
+  {
+    "id": 60,
+    "text": "在 Kubernetes 集群里部署服务。",
+    "domain": "tech",
+    "noise_type": "babble",
+    "noise_level": "soft",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_060.wav"
+  },
+  {
+    "id": 61,
+    "text": "打开 Chrome 浏览器访问 GitHub。",
+    "domain": "english",
+    "noise_type": "babble",
+    "noise_level": "soft",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_061.wav"
+  },
+  {
+    "id": 62,
+    "text": "macOS 系统升级后 Docker 出问题了。",
+    "domain": "tech",
+    "noise_type": "white",
+    "noise_level": "soft",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_062.wav"
+  },
+  {
+    "id": 63,
+    "text": "一共买了一百二十三个苹果。",
+    "domain": "numbers",
+    "noise_type": "white",
+    "noise_level": "medium",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_063.wav"
+  },
+  {
+    "id": 64,
+    "text": "明天要早起，记得定好闹钟。",
+    "domain": "daily",
+    "noise_type": "white",
+    "noise_level": "loud",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_064.wav"
+  },
+  {
+    "id": 65,
+    "text": "今天天气真好，我们出去散步吧。",
+    "domain": "daily",
+    "noise_type": null,
+    "noise_level": "clean",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_065.wav"
+  },
+  {
+    "id": 66,
+    "text": "今天太累了想早点休息。",
+    "domain": "daily",
+    "noise_type": null,
+    "noise_level": "clean",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_066.wav"
+  },
+  {
+    "id": 67,
+    "text": "体育事业取得新成就。",
+    "domain": "news",
+    "noise_type": "babble",
+    "noise_level": "soft",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_067.wav"
+  },
+  {
+    "id": 68,
+    "text": "微信和支付宝都可以付款。",
+    "domain": "names",
+    "noise_type": "babble",
+    "noise_level": "loud",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_068.wav"
+  },
+  {
+    "id": 69,
+    "text": "查看一下明天的天气。",
+    "domain": "commands",
+    "noise_type": "babble",
+    "noise_level": "soft",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_069.wav"
+  },
+  {
+    "id": 70,
+    "text": "去超市买点水果回来。",
+    "domain": "daily",
+    "noise_type": "white",
+    "noise_level": "soft",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_070.wav"
+  },
+  {
+    "id": 71,
+    "text": "对外贸易总额创历史新高。",
+    "domain": "news",
+    "noise_type": null,
+    "noise_level": "clean",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_071.wav"
+  },
+  {
+    "id": 72,
+    "text": "增长率为百分之二十三点五。",
+    "domain": "numbers",
+    "noise_type": null,
+    "noise_level": "clean",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_072.wav"
+  },
+  {
+    "id": 73,
+    "text": "参加人数大约是三百人左右。",
+    "domain": "numbers",
+    "noise_type": "cafe",
+    "noise_level": "soft",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_073.wav"
+  },
+  {
+    "id": 74,
+    "text": "距离目的地还有二十公里。",
+    "domain": "numbers",
+    "noise_type": null,
+    "noise_level": "clean",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_074.wav"
+  },
+  {
+    "id": 75,
+    "text": "这个项目用 Docker 部署到 AWS 上面。",
+    "domain": "tech",
+    "noise_type": "traffic",
+    "noise_level": "loud",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_075.wav"
+  },
+  {
+    "id": 76,
+    "text": "用 Prometheus 监控指标数据。",
+    "domain": "tech",
+    "noise_type": "cafe",
+    "noise_level": "loud",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_076.wav"
+  },
+  {
+    "id": 77,
+    "text": "这个 API 用 GET 方法请求。",
+    "domain": "english",
+    "noise_type": "white",
+    "noise_level": "soft",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_077.wav"
+  },
+  {
+    "id": 78,
+    "text": "乡村振兴战略深入实施。",
+    "domain": "news",
+    "noise_type": "babble",
+    "noise_level": "medium",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_078.wav"
+  },
+  {
+    "id": 79,
+    "text": "收到一封 Email 来自 HR。",
+    "domain": "english",
+    "noise_type": null,
+    "noise_level": "clean",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_079.wav"
+  },
+  {
+    "id": 80,
+    "text": "特斯拉汽车销量创新高。",
+    "domain": "names",
+    "noise_type": null,
+    "noise_level": "clean",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_080.wav"
+  },
+  {
+    "id": 81,
+    "text": "经济增长保持稳中向好态势。",
+    "domain": "news",
+    "noise_type": "traffic",
+    "noise_level": "medium",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_081.wav"
+  },
+  {
+    "id": 82,
+    "text": "深圳华为总部参观需要预约。",
+    "domain": "names",
+    "noise_type": null,
+    "noise_level": "clean",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_082.wav"
+  },
+  {
+    "id": 83,
+    "text": "北京大学的王教授做了报告。",
+    "domain": "names",
+    "noise_type": "babble",
+    "noise_level": "medium",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_083.wav"
+  },
+  {
+    "id": 84,
+    "text": "打开 Safari 浏览网页。",
+    "domain": "english",
+    "noise_type": "white",
+    "noise_level": "loud",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_084.wav"
+  },
+  {
+    "id": 85,
+    "text": "经济增长保持稳中向好态势。",
+    "domain": "news",
+    "noise_type": "babble",
+    "noise_level": "soft",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_085.wav"
+  },
+  {
+    "id": 86,
+    "text": "今天太累了想早点休息。",
+    "domain": "daily",
+    "noise_type": "babble",
+    "noise_level": "medium",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_086.wav"
+  },
+  {
+    "id": 87,
+    "text": "给我妈妈打个电话。",
+    "domain": "commands",
+    "noise_type": "traffic",
+    "noise_level": "soft",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_087.wav"
+  },
+  {
+    "id": 88,
+    "text": "今天上午国务院召开新闻发布会。",
+    "domain": "news",
+    "noise_type": "traffic",
+    "noise_level": "loud",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_088.wav"
+  },
+  {
+    "id": 89,
+    "text": "MySQL 数据库性能有点慢。",
+    "domain": "tech",
+    "noise_type": "traffic",
+    "noise_level": "loud",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_089.wav"
+  },
+  {
+    "id": 90,
+    "text": "参加人数大约是三百人左右。",
+    "domain": "numbers",
+    "noise_type": null,
+    "noise_level": "clean",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_090.wav"
+  },
+  {
+    "id": 91,
+    "text": "阿里巴巴和腾讯都是大公司。",
+    "domain": "names",
+    "noise_type": null,
+    "noise_level": "clean",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_091.wav"
+  },
+  {
+    "id": 92,
+    "text": "安装 Node.js 和 npm 包管理器。",
+    "domain": "english",
+    "noise_type": "traffic",
+    "noise_level": "loud",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_092.wav"
+  },
+  {
+    "id": 93,
+    "text": "用 Python 读取 JSON 文件。",
+    "domain": "english",
+    "noise_type": "cafe",
+    "noise_level": "medium",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_093.wav"
+  },
+  {
+    "id": 94,
+    "text": "查看一下明天的天气。",
+    "domain": "commands",
+    "noise_type": "white",
+    "noise_level": "soft",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_094.wav"
+  },
+  {
+    "id": 95,
+    "text": "增长率为百分之二十三点五。",
+    "domain": "numbers",
+    "noise_type": "white",
+    "noise_level": "loud",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_095.wav"
+  },
+  {
+    "id": 96,
+    "text": "科技创新取得重大突破性进展。",
+    "domain": "news",
+    "noise_type": null,
+    "noise_level": "clean",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_096.wav"
+  },
+  {
+    "id": 97,
+    "text": "这个 API 用 GET 方法请求。",
+    "domain": "english",
+    "noise_type": null,
+    "noise_level": "clean",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_097.wav"
+  },
+  {
+    "id": 98,
+    "text": "特朗普和拜登进行了辩论。",
+    "domain": "names",
+    "noise_type": "white",
+    "noise_level": "medium",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_098.wav"
+  },
+  {
+    "id": 99,
+    "text": "房地产市场调控政策效果显现。",
+    "domain": "news",
+    "noise_type": "traffic",
+    "noise_level": "soft",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_099.wav"
+  },
+  {
+    "id": 100,
+    "text": "记得带伞，今天下午有雨。",
+    "domain": "daily",
+    "noise_type": "cafe",
+    "noise_level": "soft",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_100.wav"
+  },
+  {
+    "id": 101,
+    "text": "今天天气真好，我们出去散步吧。",
+    "domain": "daily",
+    "noise_type": "white",
+    "noise_level": "loud",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_101.wav"
+  },
+  {
+    "id": 102,
+    "text": "打开 Safari 浏览网页。",
+    "domain": "english",
+    "noise_type": "babble",
+    "noise_level": "loud",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_102.wav"
+  },
+  {
+    "id": 103,
+    "text": "这个 API 用 GET 方法请求。",
+    "domain": "english",
+    "noise_type": "cafe",
+    "noise_level": "loud",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_103.wav"
+  },
+  {
+    "id": 104,
+    "text": "连接 WiFi 无线网络。",
+    "domain": "english",
+    "noise_type": "traffic",
+    "noise_level": "soft",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_104.wav"
+  },
+  {
+    "id": 105,
+    "text": "这本书很有意思，我已经看了三遍了。",
+    "domain": "daily",
+    "noise_type": null,
+    "noise_level": "clean",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_105.wav"
+  },
+  {
+    "id": 106,
+    "text": "社会保障体系不断完善。",
+    "domain": "news",
+    "noise_type": null,
+    "noise_level": "clean",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_106.wav"
+  },
+  {
+    "id": 107,
+    "text": "登录 iCloud 账号同步数据。",
+    "domain": "english",
+    "noise_type": null,
+    "noise_level": "clean",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_107.wav"
+  },
+  {
+    "id": 108,
+    "text": "教育公平进一步得到保障。",
+    "domain": "news",
+    "noise_type": "cafe",
+    "noise_level": "soft",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_108.wav"
+  },
+  {
+    "id": 109,
+    "text": "一共买了一百二十三个苹果。",
+    "domain": "numbers",
+    "noise_type": null,
+    "noise_level": "clean",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_109.wav"
+  },
+  {
+    "id": 110,
+    "text": "特朗普和拜登进行了辩论。",
+    "domain": "names",
+    "noise_type": null,
+    "noise_level": "clean",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_110.wav"
+  },
+  {
+    "id": 111,
+    "text": "测试覆盖率需要提升到百分之八十以上。",
+    "domain": "tech",
+    "noise_type": "white",
+    "noise_level": "loud",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_111.wav"
+  },
+  {
+    "id": 112,
+    "text": "API 文档用 Swagger 自动生成。",
+    "domain": "tech",
+    "noise_type": "white",
+    "noise_level": "soft",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_112.wav"
+  },
+  {
+    "id": 113,
+    "text": "参加人数大约是三百人左右。",
+    "domain": "numbers",
+    "noise_type": null,
+    "noise_level": "clean",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_113.wav"
+  },
+  {
+    "id": 114,
+    "text": "把文件上传到 Google Drive。",
+    "domain": "english",
+    "noise_type": null,
+    "noise_level": "clean",
+    "audio_file": "/Users/liyongjun/stt-eval/samples/audio/s_114.wav"
+  }
+]
