@@ -1,0 +1,930 @@
+{
+  "tool": "yap (Apple Speech.framework macOS 26)",
+  "model": "on-device Speech.framework",
+  "total": 115,
+  "correct": 55,
+  "accuracy": 47.82608695652174,
+  "elapsed_seconds": 26.10372495651245,
+  "samples": [
+    {
+      "id": 0,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_000.wav",
+      "ground_truth": "给我妈妈打个电话。",
+      "yap_raw": "给我妈妈打个电话。",
+      "yap_processed": "给我妈妈打个电话。",
+      "match": true
+    },
+    {
+      "id": 1,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_001.wav",
+      "ground_truth": "调高电视机的音量。",
+      "yap_raw": "调高电视机的音量。",
+      "yap_processed": "调高电视机的音量。",
+      "match": true
+    },
+    {
+      "id": 2,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_002.wav",
+      "ground_truth": "今天上午国务院召开新闻发布会。",
+      "yap_raw": "今天上午国务院召开新闻发布会。",
+      "yap_processed": "今天上午国务院召开新闻发布会。",
+      "match": true
+    },
+    {
+      "id": 3,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_003.wav",
+      "ground_truth": "播放下一首歌曲。",
+      "yap_raw": "播放下一首歌曲。",
+      "yap_processed": "播放下一首歌曲。",
+      "match": true
+    },
+    {
+      "id": 4,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_004.wav",
+      "ground_truth": "安装 Node.js 和 npm 包管理器。",
+      "yap_raw": "安装 noteJS和 NPM包管理器。",
+      "yap_processed": "安装noteJS和NPM包管理器。",
+      "match": false
+    },
+    {
+      "id": 5,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_005.wav",
+      "ground_truth": "用 Python 读取 JSON 文件。",
+      "yap_raw": "用拍放读取 JSOM文件。",
+      "yap_processed": "用拍放读取JSOM文件。",
+      "match": false
+    },
+    {
+      "id": 6,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_006.wav",
+      "ground_truth": "我的电话号码是一三八幺二三四五六七八。",
+      "yap_raw": "我的电话号码是 13812345678。",
+      "yap_processed": "我的电话号码是13812345678。",
+      "match": false
+    },
+    {
+      "id": 7,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_007.wav",
+      "ground_truth": "苹果公司的市值全球第一。",
+      "yap_raw": "苹果公司的市值全球第一。",
+      "yap_processed": "苹果公司的市值全球第一。",
+      "match": true
+    },
+    {
+      "id": 8,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_008.wav",
+      "ground_truth": "杭州西湖的风景真美。",
+      "yap_raw": "杭州西湖的风景真美。",
+      "yap_processed": "杭州西湖的风景真美。",
+      "match": true
+    },
+    {
+      "id": 9,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_009.wav",
+      "ground_truth": "测试覆盖率需要提升到百分之八十以上。",
+      "yap_raw": "测试覆盖率需要提升到 80%以上。",
+      "yap_processed": "测试覆盖率需要提升到80%以上。",
+      "match": false
+    },
+    {
+      "id": 10,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_010.wav",
+      "ground_truth": "这个电影非常精彩，推荐大家去看。",
+      "yap_raw": "这个电影非常精彩 ，推荐大家去看。",
+      "yap_processed": "这个电影非常精彩，推荐大家去看。",
+      "match": true
+    },
+    {
+      "id": 11,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_011.wav",
+      "ground_truth": "股票涨了百分之十五。",
+      "yap_raw": "股票涨了 15%",
+      "yap_processed": "股票涨了15%",
+      "match": false
+    },
+    {
+      "id": 12,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_012.wav",
+      "ground_truth": "把文件上传到 Google Drive。",
+      "yap_raw": "把文件上传到 GoogleDrive。",
+      "yap_processed": "把文件上传到GoogleDrive。",
+      "match": false
+    },
+    {
+      "id": 13,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_013.wav",
+      "ground_truth": "访问 192.168.1.1 这个 IP 地址。",
+      "yap_raw": "访问 192.168.1.1这个 IP地址。",
+      "yap_processed": "访问192。168。1。1这个IP地址。",
+      "match": false
+    },
+    {
+      "id": 14,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_014.wav",
+      "ground_truth": "总价是九千九百九十九块九毛九。",
+      "yap_raw": "总价是 9999.99。",
+      "yap_processed": "总价是9999。99。",
+      "match": false
+    },
+    {
+      "id": 15,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_015.wav",
+      "ground_truth": "我想喝一杯咖啡，要不要一起？",
+      "yap_raw": "我想喝一杯咖啡要不要一起 ？",
+      "yap_processed": "我想喝一杯咖啡要不要一起？",
+      "match": false
+    },
+    {
+      "id": 16,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_016.wav",
+      "ground_truth": "我在用 Python 写 REST API 接口。",
+      "yap_raw": "我在用 pyhong写 restAPI接口。",
+      "yap_processed": "我在用pyhong写restAPI接口。",
+      "match": false
+    },
+    {
+      "id": 17,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_017.wav",
+      "ground_truth": "快递单号以九四三二开头。",
+      "yap_raw": "快递单号以 9432开头。",
+      "yap_processed": "快递单号以9432开头。",
+      "match": false
+    },
+    {
+      "id": 18,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_018.wav",
+      "ground_truth": "晚上吃什么好呢，火锅还是烧烤？",
+      "yap_raw": "晚上吃什么好呢 ？火锅还是烧烤。",
+      "yap_processed": "晚上吃什么好呢？火锅还是烧烤。",
+      "match": false
+    },
+    {
+      "id": 19,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_019.wav",
+      "ground_truth": "收到转账一万两千元整。",
+      "yap_raw": "收到转账 12000元整。",
+      "yap_processed": "收到转账12000元整。",
+      "match": false
+    },
+    {
+      "id": 20,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_020.wav",
+      "ground_truth": "体重是六十八点五公斤。",
+      "yap_raw": "你正是 68.5公斤。",
+      "yap_processed": "你正是68。5公斤。",
+      "match": false
+    },
+    {
+      "id": 21,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_021.wav",
+      "ground_truth": "把空调温度调到二十六度。",
+      "yap_raw": "把空调温度调到 26度。",
+      "yap_processed": "把空调温度调到26度。",
+      "match": false
+    },
+    {
+      "id": 22,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_022.wav",
+      "ground_truth": "上海浦东机场今天航班延误了。",
+      "yap_raw": "上海浦东机场今天航班延误了。",
+      "yap_processed": "上海浦东机场今天航班延误了。",
+      "match": true
+    },
+    {
+      "id": 23,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_023.wav",
+      "ground_truth": "关掉客厅的灯。",
+      "yap_raw": "关掉客厅的灯。",
+      "yap_processed": "关掉客厅的灯。",
+      "match": true
+    },
+    {
+      "id": 24,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_024.wav",
+      "ground_truth": "用 Docker 跑一个 MySQL 容器。",
+      "yap_raw": "用八块还一个 MP2人器。",
+      "yap_processed": "用八块还一个MP2人器。",
+      "match": false
+    },
+    {
+      "id": 25,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_025.wav",
+      "ground_truth": "特朗普和拜登进行了辩论。",
+      "yap_raw": "特朗普和拜登进行了辩论。",
+      "yap_processed": "特朗普和拜登进行了辩论。",
+      "match": true
+    },
+    {
+      "id": 26,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_026.wav",
+      "ground_truth": "记得带伞，今天下午有雨。",
+      "yap_raw": "记得带伞 ，今天下午有雨。",
+      "yap_processed": "记得带伞，今天下午有雨。",
+      "match": true
+    },
+    {
+      "id": 27,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_027.wav",
+      "ground_truth": "用 Redis 做缓存层效果好很多。",
+      "yap_raw": "用温度做感情疼效果好很多。",
+      "yap_processed": "用温度做感情疼效果好很多。",
+      "match": false
+    },
+    {
+      "id": 28,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_028.wav",
+      "ground_truth": "需要修复 Git 的 merge conflict。",
+      "yap_raw": "需要修复 git的 merge conflict。",
+      "yap_processed": "需要修复git的mergeconflict。",
+      "match": false
+    },
+    {
+      "id": 29,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_029.wav",
+      "ground_truth": "API 文档用 Swagger 自动生成。",
+      "yap_raw": "API文档用 swager自动生成。",
+      "yap_processed": "API文档用swager自动生成。",
+      "match": false
+    },
+    {
+      "id": 30,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_030.wav",
+      "ground_truth": "帮我叫一辆出租车。",
+      "yap_raw": "帮我叫一辆出租车。",
+      "yap_processed": "帮我叫一辆出租车。",
+      "match": true
+    },
+    {
+      "id": 31,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_031.wav",
+      "ground_truth": "李明和王小红去看了张艺谋的新电影。",
+      "yap_raw": "李明和王小红去看了张艺谋的新电影。",
+      "yap_processed": "李明和王小红去看了张艺谋的新电影。",
+      "match": true
+    },
+    {
+      "id": 32,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_032.wav",
+      "ground_truth": "你好，请问这个怎么走？",
+      "yap_raw": "你好 ，请问这个怎么走 ？",
+      "yap_processed": "你好，请问这个怎么走？",
+      "match": true
+    },
+    {
+      "id": 33,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_033.wav",
+      "ground_truth": "导航去最近的加油站。",
+      "yap_raw": "导航去最近的加油站。",
+      "yap_processed": "导航去最近的加油站。",
+      "match": true
+    },
+    {
+      "id": 34,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_034.wav",
+      "ground_truth": "医疗卫生体制改革持续深化。",
+      "yap_raw": "医疗卫生体制改革持续深化。",
+      "yap_processed": "医疗卫生体制改革持续深化。",
+      "match": true
+    },
+    {
+      "id": 35,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_035.wav",
+      "ground_truth": "登录 iCloud 账号同步数据。",
+      "yap_raw": "登陆 iCloud账号同步数据。",
+      "yap_processed": "登陆iCloud账号同步数据。",
+      "match": false
+    },
+    {
+      "id": 36,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_036.wav",
+      "ground_truth": "刘德华和周杰伦开演唱会。",
+      "yap_raw": "刘德华和周杰伦拍演唱会。",
+      "yap_processed": "刘德华和周杰伦拍演唱会。",
+      "match": false
+    },
+    {
+      "id": 37,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_037.wav",
+      "ground_truth": "这个 bug 很难复现，需要加日志。",
+      "yap_raw": "这个 bug很难复现 ，需要加日志。",
+      "yap_processed": "这个bug很难复现，需要加日志。",
+      "match": false
+    },
+    {
+      "id": 38,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_038.wav",
+      "ground_truth": "帮我打开音乐播放器。",
+      "yap_raw": "帮我打开音乐播放器。",
+      "yap_processed": "帮我打开音乐播放器。",
+      "match": true
+    },
+    {
+      "id": 39,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_039.wav",
+      "ground_truth": "文化产业发展势头强劲。",
+      "yap_raw": "文化产业发展势头强劲。",
+      "yap_processed": "文化产业发展势头强劲。",
+      "match": true
+    },
+    {
+      "id": 40,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_040.wav",
+      "ground_truth": "去成都要吃火锅和兔头。",
+      "yap_raw": "去成都要吃火锅和兔头。",
+      "yap_processed": "去成都要吃火锅和兔头。",
+      "match": true
+    },
+    {
+      "id": 41,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_041.wav",
+      "ground_truth": "周末有什么计划吗？",
+      "yap_raw": "周末有什么计划吗 ？",
+      "yap_processed": "周末有什么计划吗？",
+      "match": true
+    },
+    {
+      "id": 42,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_042.wav",
+      "ground_truth": "下载 VS Code 编辑器。",
+      "yap_raw": "下载 VSCode编辑器。",
+      "yap_processed": "下载VSCode编辑器。",
+      "match": false
+    },
+    {
+      "id": 43,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_043.wav",
+      "ground_truth": "路上堵车可能要晚一点到。",
+      "yap_raw": "路上堵车可能要晚一点到。",
+      "yap_processed": "路上堵车可能要晚一点到。",
+      "match": true
+    },
+    {
+      "id": 44,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_044.wav",
+      "ground_truth": "MySQL 数据库性能有点慢。",
+      "yap_raw": "MySQL数据酷性能有点慢。",
+      "yap_processed": "MySQL数据酷性能有点慢。",
+      "match": false
+    },
+    {
+      "id": 45,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_045.wav",
+      "ground_truth": "社会保障体系不断完善。",
+      "yap_raw": "社会保障体系不断完善。",
+      "yap_processed": "社会保障体系不断完善。",
+      "match": true
+    },
+    {
+      "id": 46,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_046.wav",
+      "ground_truth": "房地产市场调控政策效果显现。",
+      "yap_raw": "房地产市场调控政策效果显现。",
+      "yap_processed": "房地产市场调控政策效果显现。",
+      "match": true
+    },
+    {
+      "id": 47,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_047.wav",
+      "ground_truth": "阿里巴巴和腾讯都是大公司。",
+      "yap_raw": "阿里巴巴和腾讯都是大公司。",
+      "yap_processed": "阿里巴巴和腾讯都是大公司。",
+      "match": true
+    },
+    {
+      "id": 48,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_048.wav",
+      "ground_truth": "体温是三十六点六度，正常。",
+      "yap_raw": "体温是 36.6度正常。",
+      "yap_processed": "体温是36。6度正常。",
+      "match": false
+    },
+    {
+      "id": 49,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_049.wav",
+      "ground_truth": "环境保护工作取得积极成效。",
+      "yap_raw": "环境保护工作取得积极成效。",
+      "yap_processed": "环境保护工作取得积极成效。",
+      "match": true
+    },
+    {
+      "id": 50,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_050.wav",
+      "ground_truth": "这本书很有意思，我已经看了三遍了。",
+      "yap_raw": "这本书很有意思 ，我已经看了三遍了。",
+      "yap_processed": "这本书很有意思，我已经看了三遍了。",
+      "match": true
+    },
+    {
+      "id": 51,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_051.wav",
+      "ground_truth": "打开 Safari 浏览网页。",
+      "yap_raw": "打开 Safari浏览网页。",
+      "yap_processed": "打开Safari浏览网页。",
+      "match": false
+    },
+    {
+      "id": 52,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_052.wav",
+      "ground_truth": "连接 WiFi 无线网络。",
+      "yap_raw": "连接 Wi-Fi无线网络。",
+      "yap_processed": "连接Wi-Fi无线网络。",
+      "match": false
+    },
+    {
+      "id": 53,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_053.wav",
+      "ground_truth": "教育公平进一步得到保障。",
+      "yap_raw": "教育公平进一步得到保障。",
+      "yap_processed": "教育公平进一步得到保障。",
+      "match": true
+    },
+    {
+      "id": 54,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_054.wav",
+      "ground_truth": "播放暂停停止音乐。",
+      "yap_raw": "播放暂停停止音乐。",
+      "yap_processed": "播放暂停停止音乐。",
+      "match": true
+    },
+    {
+      "id": 55,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_055.wav",
+      "ground_truth": "科技创新取得重大突破性进展。",
+      "yap_raw": "科技创新取得重大突破性进展。",
+      "yap_processed": "科技创新取得重大突破性进展。",
+      "match": true
+    },
+    {
+      "id": 56,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_056.wav",
+      "ground_truth": "把这个链接分享给张三。",
+      "yap_raw": "把这个链接分享给张三。",
+      "yap_processed": "把这个链接分享给张三。",
+      "match": true
+    },
+    {
+      "id": 57,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_057.wav",
+      "ground_truth": "用 GitHub Actions 做 CI/CD 流程。",
+      "yap_raw": "用 githup actions做 CICD流程。",
+      "yap_processed": "用githupactions做CICD流程。",
+      "match": false
+    },
+    {
+      "id": 58,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_058.wav",
+      "ground_truth": "设置一个明天早上七点的闹钟。",
+      "yap_raw": "设置一个明天早上 7:00的闹钟。",
+      "yap_processed": "设置一个明天早上7：00的闹钟。",
+      "match": false
+    },
+    {
+      "id": 59,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_059.wav",
+      "ground_truth": "时间是下午三点四十五分。",
+      "yap_raw": "时间是下午 3点45分。",
+      "yap_processed": "时间是下午3点45分。",
+      "match": false
+    },
+    {
+      "id": 60,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_060.wav",
+      "ground_truth": "在 Kubernetes 集群里部署服务。",
+      "yap_raw": "在 Copernative集群里部署服务。",
+      "yap_processed": "在Copernative集群里部署服务。",
+      "match": false
+    },
+    {
+      "id": 61,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_061.wav",
+      "ground_truth": "打开 Chrome 浏览器访问 GitHub。",
+      "yap_raw": "打开 Clome浏览器访问 Di-hup。",
+      "yap_processed": "打开Clome浏览器访问Di-hup。",
+      "match": false
+    },
+    {
+      "id": 62,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_062.wav",
+      "ground_truth": "macOS 系统升级后 Docker 出问题了。",
+      "yap_raw": "MichOS系统升级后 doctor出问题了。",
+      "yap_processed": "MichOS系统升级后doctor出问题了。",
+      "match": false
+    },
+    {
+      "id": 63,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_063.wav",
+      "ground_truth": "一共买了一百二十三个苹果。",
+      "yap_raw": "一共买了 123个苹果。",
+      "yap_processed": "一共买了123个苹果。",
+      "match": false
+    },
+    {
+      "id": 64,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_064.wav",
+      "ground_truth": "明天要早起，记得定好闹钟。",
+      "yap_raw": "明天要早起记得定好闹钟。",
+      "yap_processed": "明天要早起记得定好闹钟。",
+      "match": false
+    },
+    {
+      "id": 65,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_065.wav",
+      "ground_truth": "今天天气真好，我们出去散步吧。",
+      "yap_raw": "今天天气真好 ，我们出去散步吧。",
+      "yap_processed": "今天天气真好，我们出去散步吧。",
+      "match": true
+    },
+    {
+      "id": 66,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_066.wav",
+      "ground_truth": "今天太累了想早点休息。",
+      "yap_raw": "今天太累了 ，想早点休息。",
+      "yap_processed": "今天太累了，想早点休息。",
+      "match": false
+    },
+    {
+      "id": 67,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_067.wav",
+      "ground_truth": "体育事业取得新成就。",
+      "yap_raw": "体育事业取得新成就。",
+      "yap_processed": "体育事业取得新成就。",
+      "match": true
+    },
+    {
+      "id": 68,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_068.wav",
+      "ground_truth": "微信和支付宝都可以付款。",
+      "yap_raw": "微信和支付宝都可以付款。",
+      "yap_processed": "微信和支付宝都可以付款。",
+      "match": true
+    },
+    {
+      "id": 69,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_069.wav",
+      "ground_truth": "查看一下明天的天气。",
+      "yap_raw": "查看一下明天的天气。",
+      "yap_processed": "查看一下明天的天气。",
+      "match": true
+    },
+    {
+      "id": 70,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_070.wav",
+      "ground_truth": "去超市买点水果回来。",
+      "yap_raw": "去超市买点水果回来。",
+      "yap_processed": "去超市买点水果回来。",
+      "match": true
+    },
+    {
+      "id": 71,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_071.wav",
+      "ground_truth": "对外贸易总额创历史新高。",
+      "yap_raw": "对外贸易总额创历史新高。",
+      "yap_processed": "对外贸易总额创历史新高。",
+      "match": true
+    },
+    {
+      "id": 72,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_072.wav",
+      "ground_truth": "增长率为百分之二十三点五。",
+      "yap_raw": "增长率为 23.5%",
+      "yap_processed": "增长率为23。5%",
+      "match": false
+    },
+    {
+      "id": 73,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_073.wav",
+      "ground_truth": "参加人数大约是三百人左右。",
+      "yap_raw": "参加人数大约是 300人左右。",
+      "yap_processed": "参加人数大约是300人左右。",
+      "match": false
+    },
+    {
+      "id": 74,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_074.wav",
+      "ground_truth": "距离目的地还有二十公里。",
+      "yap_raw": "距离目的地还有 20公里。",
+      "yap_processed": "距离目的地还有20公里。",
+      "match": false
+    },
+    {
+      "id": 75,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_075.wav",
+      "ground_truth": "这个项目用 Docker 部署到 AWS 上面。",
+      "yap_raw": "这个项目用 docker部署到 AWS上面。",
+      "yap_processed": "这个项目用docker部署到AWS上面。",
+      "match": false
+    },
+    {
+      "id": 76,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_076.wav",
+      "ground_truth": "用 Prometheus 监控指标数据。",
+      "yap_raw": "用 Pormitin监控指标数据。",
+      "yap_processed": "用Pormitin监控指标数据。",
+      "match": false
+    },
+    {
+      "id": 77,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_077.wav",
+      "ground_truth": "这个 API 用 GET 方法请求。",
+      "yap_raw": "这个 API用 get方法请求。",
+      "yap_processed": "这个API用get方法请求。",
+      "match": false
+    },
+    {
+      "id": 78,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_078.wav",
+      "ground_truth": "乡村振兴战略深入实施。",
+      "yap_raw": "乡村振兴战略深入实施。",
+      "yap_processed": "乡村振兴战略深入实施。",
+      "match": true
+    },
+    {
+      "id": 79,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_079.wav",
+      "ground_truth": "收到一封 Email 来自 HR。",
+      "yap_raw": "收到一封 email来自 HR。",
+      "yap_processed": "收到一封email来自HR。",
+      "match": false
+    },
+    {
+      "id": 80,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_080.wav",
+      "ground_truth": "特斯拉汽车销量创新高。",
+      "yap_raw": "特斯拉汽车销量创新高。",
+      "yap_processed": "特斯拉汽车销量创新高。",
+      "match": true
+    },
+    {
+      "id": 81,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_081.wav",
+      "ground_truth": "经济增长保持稳中向好态势。",
+      "yap_raw": "经济增长保持稳中向好态势。",
+      "yap_processed": "经济增长保持稳中向好态势。",
+      "match": true
+    },
+    {
+      "id": 82,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_082.wav",
+      "ground_truth": "深圳华为总部参观需要预约。",
+      "yap_raw": "深圳华为总部参观需要预约。",
+      "yap_processed": "深圳华为总部参观需要预约。",
+      "match": true
+    },
+    {
+      "id": 83,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_083.wav",
+      "ground_truth": "北京大学的王教授做了报告。",
+      "yap_raw": "北京大学的王教授做了报告。",
+      "yap_processed": "北京大学的王教授做了报告。",
+      "match": true
+    },
+    {
+      "id": 84,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_084.wav",
+      "ground_truth": "打开 Safari 浏览网页。",
+      "yap_raw": "打开 Safari浏览网页。",
+      "yap_processed": "打开Safari浏览网页。",
+      "match": false
+    },
+    {
+      "id": 85,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_085.wav",
+      "ground_truth": "经济增长保持稳中向好态势。",
+      "yap_raw": "经济增长保持稳中向好态势。",
+      "yap_processed": "经济增长保持稳中向好态势。",
+      "match": true
+    },
+    {
+      "id": 86,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_086.wav",
+      "ground_truth": "今天太累了想早点休息。",
+      "yap_raw": "今天太累了 ，想早点休息。",
+      "yap_processed": "今天太累了，想早点休息。",
+      "match": false
+    },
+    {
+      "id": 87,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_087.wav",
+      "ground_truth": "给我妈妈打个电话。",
+      "yap_raw": "给我妈妈打个电话。",
+      "yap_processed": "给我妈妈打个电话。",
+      "match": true
+    },
+    {
+      "id": 88,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_088.wav",
+      "ground_truth": "今天上午国务院召开新闻发布会。",
+      "yap_raw": "今天上午国务院召开新闻发布会。",
+      "yap_processed": "今天上午国务院召开新闻发布会。",
+      "match": true
+    },
+    {
+      "id": 89,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_089.wav",
+      "ground_truth": "MySQL 数据库性能有点慢。",
+      "yap_raw": "MySQL数据酷性能有点慢。",
+      "yap_processed": "MySQL数据酷性能有点慢。",
+      "match": false
+    },
+    {
+      "id": 90,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_090.wav",
+      "ground_truth": "参加人数大约是三百人左右。",
+      "yap_raw": "参加人数大约是 300人左右。",
+      "yap_processed": "参加人数大约是300人左右。",
+      "match": false
+    },
+    {
+      "id": 91,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_091.wav",
+      "ground_truth": "阿里巴巴和腾讯都是大公司。",
+      "yap_raw": "阿里巴巴和腾讯都是大公司。",
+      "yap_processed": "阿里巴巴和腾讯都是大公司。",
+      "match": true
+    },
+    {
+      "id": 92,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_092.wav",
+      "ground_truth": "安装 Node.js 和 npm 包管理器。",
+      "yap_raw": "安装 noteJS和 MPM包管理器。",
+      "yap_processed": "安装noteJS和MPM包管理器。",
+      "match": false
+    },
+    {
+      "id": 93,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_093.wav",
+      "ground_truth": "用 Python 读取 JSON 文件。",
+      "yap_raw": "用拍放读取 JSON文件。",
+      "yap_processed": "用拍放读取JSON文件。",
+      "match": false
+    },
+    {
+      "id": 94,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_094.wav",
+      "ground_truth": "查看一下明天的天气。",
+      "yap_raw": "查看一下明天的天气。",
+      "yap_processed": "查看一下明天的天气。",
+      "match": true
+    },
+    {
+      "id": 95,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_095.wav",
+      "ground_truth": "增长率为百分之二十三点五。",
+      "yap_raw": "增长率为 23.5%",
+      "yap_processed": "增长率为23。5%",
+      "match": false
+    },
+    {
+      "id": 96,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_096.wav",
+      "ground_truth": "科技创新取得重大突破性进展。",
+      "yap_raw": "科技创新取得重大突破性进展。",
+      "yap_processed": "科技创新取得重大突破性进展。",
+      "match": true
+    },
+    {
+      "id": 97,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_097.wav",
+      "ground_truth": "这个 API 用 GET 方法请求。",
+      "yap_raw": "这个 API用 get方法请求。",
+      "yap_processed": "这个API用get方法请求。",
+      "match": false
+    },
+    {
+      "id": 98,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_098.wav",
+      "ground_truth": "特朗普和拜登进行了辩论。",
+      "yap_raw": "特朗普和拜登进行了辩论。",
+      "yap_processed": "特朗普和拜登进行了辩论。",
+      "match": true
+    },
+    {
+      "id": 99,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_099.wav",
+      "ground_truth": "房地产市场调控政策效果显现。",
+      "yap_raw": "房地产市场调控政策效果显现。",
+      "yap_processed": "房地产市场调控政策效果显现。",
+      "match": true
+    },
+    {
+      "id": 100,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_100.wav",
+      "ground_truth": "记得带伞，今天下午有雨。",
+      "yap_raw": "记得带伞 ，今天下午有雨。",
+      "yap_processed": "记得带伞，今天下午有雨。",
+      "match": true
+    },
+    {
+      "id": 101,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_101.wav",
+      "ground_truth": "今天天气真好，我们出去散步吧。",
+      "yap_raw": "今天天气真好 ，我们出去散步吧。",
+      "yap_processed": "今天天气真好，我们出去散步吧。",
+      "match": true
+    },
+    {
+      "id": 102,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_102.wav",
+      "ground_truth": "打开 Safari 浏览网页。",
+      "yap_raw": "打开四方路浏览网页。",
+      "yap_processed": "打开四方路浏览网页。",
+      "match": false
+    },
+    {
+      "id": 103,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_103.wav",
+      "ground_truth": "这个 API 用 GET 方法请求。",
+      "yap_raw": "这个 API用 get方法请求。",
+      "yap_processed": "这个API用get方法请求。",
+      "match": false
+    },
+    {
+      "id": 104,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_104.wav",
+      "ground_truth": "连接 WiFi 无线网络。",
+      "yap_raw": "连接 Wi-Fi无线网络。",
+      "yap_processed": "连接Wi-Fi无线网络。",
+      "match": false
+    },
+    {
+      "id": 105,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_105.wav",
+      "ground_truth": "这本书很有意思，我已经看了三遍了。",
+      "yap_raw": "这本书很有意思 ，我已经看了三遍了。",
+      "yap_processed": "这本书很有意思，我已经看了三遍了。",
+      "match": true
+    },
+    {
+      "id": 106,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_106.wav",
+      "ground_truth": "社会保障体系不断完善。",
+      "yap_raw": "社会保障体系不断完善。",
+      "yap_processed": "社会保障体系不断完善。",
+      "match": true
+    },
+    {
+      "id": 107,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_107.wav",
+      "ground_truth": "登录 iCloud 账号同步数据。",
+      "yap_raw": "登陆 iCloud账号同步数据。",
+      "yap_processed": "登陆iCloud账号同步数据。",
+      "match": false
+    },
+    {
+      "id": 108,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_108.wav",
+      "ground_truth": "教育公平进一步得到保障。",
+      "yap_raw": "教育公平进一步得到保障。",
+      "yap_processed": "教育公平进一步得到保障。",
+      "match": true
+    },
+    {
+      "id": 109,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_109.wav",
+      "ground_truth": "一共买了一百二十三个苹果。",
+      "yap_raw": "一共买了 123个苹果。",
+      "yap_processed": "一共买了123个苹果。",
+      "match": false
+    },
+    {
+      "id": 110,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_110.wav",
+      "ground_truth": "特朗普和拜登进行了辩论。",
+      "yap_raw": "特朗普和拜登进行了辩论。",
+      "yap_processed": "特朗普和拜登进行了辩论。",
+      "match": true
+    },
+    {
+      "id": 111,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_111.wav",
+      "ground_truth": "测试覆盖率需要提升到百分之八十以上。",
+      "yap_raw": "测试覆盖率需要提升到 80%以上。",
+      "yap_processed": "测试覆盖率需要提升到80%以上。",
+      "match": false
+    },
+    {
+      "id": 112,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_112.wav",
+      "ground_truth": "API 文档用 Swagger 自动生成。",
+      "yap_raw": "API文档用 swager自动生成。",
+      "yap_processed": "API文档用swager自动生成。",
+      "match": false
+    },
+    {
+      "id": 113,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_113.wav",
+      "ground_truth": "参加人数大约是三百人左右。",
+      "yap_raw": "参加人数大约是 300人左右。",
+      "yap_processed": "参加人数大约是300人左右。",
+      "match": false
+    },
+    {
+      "id": 114,
+      "audio": "/Users/liyongjun/stt-eval/samples/audio/s_114.wav",
+      "ground_truth": "把文件上传到 Google Drive。",
+      "yap_raw": "把文件上传到 Google Drive。",
+      "yap_processed": "把文件上传到GoogleDrive。",
+      "match": false
+    }
+  ]
+}
